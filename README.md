@@ -24,6 +24,8 @@ Or using your preferred package manager.
 The only other requirement is to have a somewhat specific folder structure for your data. Each "sample" should be contained in its own folder, so .dcm files per sample are separated. Then each sample's folder should be within another folder. You can have as many subfolders as you like though, the program looks through them all recursively.
 
 At minimum the structure should look something like this:
+
+```
 data/
 |
 |___sample_1/
@@ -43,6 +45,7 @@ data/
         |___2.dcm
         ...
         |___X.dcm
+```
 
 ### Single sample inference:
 To infer for a single sample use the command "--infer_sample" followed by the directory of the .dcm files that you want to be read.
