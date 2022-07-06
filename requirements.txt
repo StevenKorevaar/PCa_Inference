@@ -1,0 +1,10 @@
+matplotlib
+numpy
+scipy
+torch
+torchvision
+torchsummary
+sklearn
+pandas
+simpleitk
+scikit-image
